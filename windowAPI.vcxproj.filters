@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="winMain.cpp" />
+    <ClCompile Include="Zone.cpp" />
+    <ClCompile Include="Animator.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Cam.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TagManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDataManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugText.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObject.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBase.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Outline.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="ZOrder.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="ZOrderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>Playground</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>Playground</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimObject.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene2.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerTest.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMouseEvent.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MapScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackTest.cpp">
+      <Filter>헤더파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer+Draw.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControler.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyControler.cpp">
+      <Filter>Enemy\EnemyControler</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGroundControler.cpp">
+      <Filter>Enemy\EnemyControler</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPlaneControler.cpp">
+      <Filter>Enemy\EnemyControler</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyObject.cpp">
+      <Filter>Enemy\EnemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPlane.cpp">
+      <Filter>Enemy\EnemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGround.cpp">
+      <Filter>Enemy\EnemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyInfo.cpp">
+      <Filter>Enemy\EnemyFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileObject.cpp">
+      <Filter>Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditText.cpp">
+      <Filter>Component\Framwork</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableText.cpp">
+      <Filter>Gameobject\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="PropStat.cpp">
+      <Filter>Prop\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableText.cpp" />
+    <ClCompile Include="EditText.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+    <ClCompile Include="PropContainer.cpp" />
+    <ClCompile Include="PropFactory.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="Prop.cpp">
+      <Filter>Prop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerControler.cpp" />
+    <ClCompile Include="CopperWall.cpp">
+      <Filter>Prop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Prop\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Duo.cpp">
+      <Filter>Prop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Conveyor.cpp">
+      <Filter>Prop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUIControler.cpp" />
+    <ClCompile Include="PlayerLaser.cpp" />
+    <ClCompile Include="TitleUIControler.cpp" />
+    <ClCompile Include="GameInfo.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TitleUIControler.cpp" />
+    <ClCompile Include="Turret.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Transport.cpp">
+      <Filter>Prop\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraControler.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Core.cpp">
+      <Filter>Prop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreComponent.cpp" />
+    <ClCompile Include="Astar.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraControler.cpp">
+      <Filter>CameraControler</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObject.cpp" />
+    <ClCompile Include="Respawn.cpp" />
+    <ClCompile Include="CameraControler.cpp">
+      <Filter>CameraControler</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerConstructLaser.cpp" />
+    <ClCompile Include="Production.cpp">
+      <Filter>Prop\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Drill.cpp">
+      <Filter>Prop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PropContainer.cpp">
+      <Filter>Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="PropFactory.cpp">
+      <Filter>Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp" />
+    <ClCompile Include="ResDistribute.cpp">
+      <Filter>Prop\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Distributor.cpp">
+      <Filter>Prop\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFunction.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="singletonBase.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Zone.h" />
+    <ClInclude Include="Animator.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Cam.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TagManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDataManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugText.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBase.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Outline.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="ZOrder.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="ZOrderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>Playground</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>Playground</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerHeader.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryHeader.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimObject.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene2.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerTest.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMouseEvent.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MapScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TileInfo.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackTest.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DRenderer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControler.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyControler.h">
+      <Filter>Enemy\EnemyControler</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGroundControler.h">
+      <Filter>Enemy\EnemyControler</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPlaneControler.h">
+      <Filter>Enemy\EnemyControler</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyObject.h">
+      <Filter>Enemy\EnemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPlane.h">
+      <Filter>Enemy\EnemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGround.h">
+      <Filter>Enemy\EnemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyInfo.h">
+      <Filter>Enemy\EnemyFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileObject.h">
+      <Filter>Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditText.h">
+      <Filter>Component\Framwork</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableText.h">
+      <Filter>Gameobject\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PropStat.h">
+      <Filter>Prop\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableText.h" />
+    <ClInclude Include="EditText.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="PropInfo.h" />
+    <ClInclude Include="PropContainer.h" />
+    <ClInclude Include="PropFactory.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="Prop.h">
+      <Filter>Prop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerControler.h" />
+    <ClInclude Include="CopperWall.h">
+      <Filter>Prop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Prop\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Duo.h">
+      <Filter>Prop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Conveyor.h">
+      <Filter>Prop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUIControler.h" />
+    <ClInclude Include="PlayerLaser.h" />
+    <ClInclude Include="TitleUIControler.h" />
+    <ClInclude Include="GameInfo.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="TitleUIControler.h" />
+    <ClInclude Include="Turret.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Transport.h">
+      <Filter>Prop\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PropInfo.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControler.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Core.h">
+      <Filter>Prop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreComponent.h" />
+    <ClInclude Include="Astar.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControler.h">
+      <Filter>CameraControler</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObject.h" />
+    <ClInclude Include="Respawn.h" />
+    <ClInclude Include="CameraControler.h">
+      <Filter>CameraControler</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerConstructLaser.h" />
+    <ClInclude Include="Production.h">
+      <Filter>Prop\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Drill.h">
+      <Filter>Prop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PropContainer.h">
+      <Filter>Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="PropFactory.h">
+      <Filter>Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="MouseManager.h" />
+    <ClInclude Include="ResDistribute.h">
+      <Filter>Prop\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Distributor.h">
+      <Filter>Prop\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="windowAPI.ico" />
+    <Image Include="..\..\..\바탕 화면\경일\14. 찐 팀 프로젝트\3. 내 작업폴더\아이콘\icon_64.png" />
+    <Image Include="Mindustryicon.ico" />
+    <Image Include="sprites\cursors\cursor.png" />
+    <Image Include="sprites\cursors\drill.png" />
+    <Image Include="sprites\cursors\hand.png" />
+    <Image Include="..\..\..\바탕 화면\경일\14. 찐 팀 프로젝트\3. 내 작업폴더\game\cursors\cursor.png" />
+    <Image Include="..\..\..\바탕 화면\경일\14. 찐 팀 프로젝트\3. 내 작업폴더\game\cursors\drill.png" />
+    <Image Include="..\..\..\바탕 화면\경일\14. 찐 팀 프로젝트\3. 내 작업폴더\game\cursors\hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="헤더파일">
+      <UniqueIdentifier>{c5a74d32-48ac-476c-b67c-3ef4959b80ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0c5effe2-8e72-4e52-b540-eb3ecf943f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{3455faa0-84a1-44a7-83ed-71ff8041d1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{d5f6050d-426e-42fd-857b-105dd2f82843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameobject">
+      <UniqueIdentifier>{339234b0-2189-4128-b69b-7f7d8ce055e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameobject\Framework">
+      <UniqueIdentifier>{5eaa17aa-467a-4826-a088-6ca7ec21b92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Framwork">
+      <UniqueIdentifier>{aa60f53b-dbee-405a-977c-a22c8d3b5b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Playground">
+      <UniqueIdentifier>{41108d82-d3b9-4357-bfd1-b83526e48e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{91e16d7c-03fe-4390-86f5-fd7f4552fc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{7550888f-5980-4910-84a4-a7fd32b07c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\EnemyControler">
+      <UniqueIdentifier>{d5b31eaf-5bab-4f1d-bfd0-9290b1c8deeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\EnemyObject">
+      <UniqueIdentifier>{67d8ac83-9425-4bfa-8c15-f98b8b08c104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\EnemyFunction">
+      <UniqueIdentifier>{a671c367-1f80-456c-b5ff-8b782465ba49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projectile">
+      <UniqueIdentifier>{650faf36-bfab-4a06-b718-a458d5ed9c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prop">
+      <UniqueIdentifier>{c80d18fe-0522-4c85-b073-726fc815a3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prop\Component">
+      <UniqueIdentifier>{c8620b5d-a4da-4111-8037-af6d838ee9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prop\Object">
+      <UniqueIdentifier>{0dc91057-20d9-4dbc-abec-ada6ce731c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{8c1e3ca4-f72a-411b-b346-bd0aa24e763a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraControler">
+      <UniqueIdentifier>{94b91f6c-578d-4156-885b-7c0595d0845e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur" />
+    <None Include="cursor2.cur" />
+    <None Include="cur00001.cur" />
+  </ItemGroup>
+</Project>
